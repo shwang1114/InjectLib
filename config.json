@@ -1,0 +1,228 @@
+{
+  "project": "InjectShell",
+  "Author": "QiuChenly",
+  "Version": 1,
+  "Description": {
+    "desc": "这是一个用于解释说明json对象用途的说明文档。basePublicConfig里面的同名配置如果在AppList里面配置了相同的Key，则优先使用AppList里面的值。",
+    "bridgeFile": "app路径和注入文件路径之间的中间路径，有些app只能注入到/Contents，所以加了这个。",
+    "packageName": "app包名，用来确认App是否存在。",
+    "injectFile": "注入文件的相对app路径的路径",
+    "supportVersion": "支持的版本号，用于大版本号 如果不提供任意版本号则直接无条件注入",
+    "supportSubVersion": "更精确的子版本号，用于某些app大版本号不变但是经常变小版本号的陋习",
+    "extraShell": "额外的执行shell，比如PD18需要执行一些额外的shell，支持自定义。",
+    "needCopyToAppDir": "有些app需要复制到app目录中才能在SIP打开的时候运行 这个属性可以控制库文件被复制到Framework",
+    "deepSignApp": "自动签名整个App",
+    "disableLibraryValidate": "关闭库验证 暂时只为pd启用",
+    "entitlements": "用于跳过部分权限 在启用SIP的macOS上 如ARM64",
+    "noSignTarget": "默认注入后会对目标文件进行签名,我们有时候不需要这个行为。",
+    "noDeep": "--deep 控制"
+  },
+  "basePublicConfig": {
+    "bridgeFile": "/Contents/Frameworks/"
+  },
+  "AppList": [
+    {
+      "packageName": "com.nssurge.surge-mac",
+      "appBaseLocate": "/Applications/Surge.app",
+      "bridgeFile": "/Contents/Frameworks/",
+      "injectFile": "Bugsnag.framework/Versions/A/Bugsnag",
+      "needCopyToAppDir": true,
+      "extraShell": "surge.sh",
+      "supportSubVersion": [
+        "2302",
+        "2303",
+        "2313",
+        "2333",
+        "2354",
+        "2363",
+        "2364",
+        "2367",
+        "2369",
+        "2374",
+        "2375",
+        "2377",
+        "2379"
+      ]
+    },
+    {
+      "packageName": "app.elpass.macos",
+      "appBaseLocate": "/Applications/Elpass.app",
+      "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
+      "needCopyToAppDir": true,
+      "deepSignApp": true
+    },
+    {
+      "packageName": "ws.stash.app.mac",
+      "appBaseLocate": "/Applications/Stash.app",
+      "injectFile": "Sparkle.framework/Versions/B/Sparkle",
+      "needCopyToAppDir": true
+    },
+    {
+      "packageName": "ws.stash.app.mac_SIP开启 暂时无效",
+      "appBaseLocate": "/Applications/Stash.app",
+      "injectFile": "Sparkle.framework/Versions/B/Sparkle",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "extraShell": "stash.sh"
+    },
+    {
+      "packageName": "com.firecore.infuse",
+      "injectFile": "GZIP.framework/Versions/A/GZIP"
+    },
+    {
+      "packageName": "com.coderforart.MWeb3",
+      "injectFile": "Sparkle.framework/Versions/B/Sparkle"
+    },
+    {
+      "packageName": "com.nektony.App-Cleaner-SIII",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "injectFile": "NektonyFallManager.framework/Versions/A/NektonyFallManager",
+      "supportVersion": ["8.2.1", "8.2.2"]
+    },
+    {
+      "packageName": "com.macpaw.CleanMyMac4",
+      "injectFile": "Announcements.framework/Versions/A/Announcements",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "extraShell": "cmm.sh"
+    },
+    {
+      "packageName": "com.macpaw.CleanMyMac4.Menu",
+      "appBaseLocate": "/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X Menu.app",
+      "injectFile": "CMMNotifications.framework/Versions/A/CMMNotifications",
+      "needCopyToAppDir": true,
+      "deepSignApp": true
+    },
+    {
+      "packageName": "com.artdesktop.bestzip2",
+      "injectFile": "JSONModel.framework/Versions/A/JSONModel"
+    },
+    {
+      "packageName": [
+        "com.navicat.NavicatPremium",
+        "com.navicat.NavicatForOracle"
+      ],
+      "injectFile": "NAVTabBarView.framework/Versions/A/NAVTabBarView"
+    },
+    {
+      "packageName": "com.adobe.Photoshop",
+      "appBaseLocate": "/Applications/Adobe Photoshop (Beta)/Adobe Photoshop (Beta).app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM"
+    },
+    {
+      "packageName": "com.adobe.Photoshop",
+      "appBaseLocate": "/Applications/Adobe Photoshop 2023/Adobe Photoshop 2023.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM"
+    },
+    {
+      "packageName": "com.adobe.illustrator",
+      "appBaseLocate": "/Applications/Adobe Illustrator 2023/Adobe Illustrator.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": ["27.5.0", "27.6.1", "27.8.1"]
+    },
+    {
+      "packageName": "com.adobe.PremierePro.23",
+      "appBaseLocate": "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": ["23.5"]
+    },
+    {
+      "packageName": "com.adobe.Acrobat.Pro",
+      "appBaseLocate": "/Applications/Adobe Acrobat DC/Adobe Acrobat.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": [
+        "23.001.20177",
+        "23.003.20201",
+        "23.003.20215",
+        "23.003.20244"
+      ]
+    },
+    {
+      "packageName": "com.adobe.LightroomClassicCC7",
+      "appBaseLocate": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app",
+      "injectFile": "AgUI.framework/Versions/A/AgUI",
+      "supportVersion": ["12.3", "12.4"]
+    },
+    {
+      "packageName": [
+        "com.microsoft.Excel",
+        "com.microsoft.Powerpoint",
+        "com.microsoft.Word"
+      ],
+      "needCopyToAppDir": true,
+      "injectFile": "FluentUI.framework/Versions/A/FluentUI"
+    },{
+      "packageName": [
+        "com.microsoft.Outlook"
+      ],
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "entitlements": "signkeep.xml",
+      "injectFile": "FluentUI.framework/Versions/A/FluentUI"
+    },
+    {
+      "packageName": "com.sublimetext.4",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "entitlements": "signkeep.xml",
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "sublime_text"
+    },
+    {
+      "packageName": "com.sublimemerge",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "entitlements": "signkeep.xml",
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "sublime_merge"
+    },
+    {
+      "packageName": "com.mac.utility.screen.recorder",
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "OmniRecorder"
+    },
+    {
+      "packageName": "com.mac.utility.media.player",
+      "injectFile": "XADMaster.framework/Versions/A/XADMaster"
+    },
+    {
+      "packageName": "com.proxyman.NSProxy",
+      "injectFile": "Moya.framework/Versions/A/Moya",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "extraShell": "proxyman.sh",
+      "supportVersion": ["4.8.0", "4.8.1", "4.8.2", "4.9.0", "4.9.1"]
+    },
+    {
+      "packageName": [
+        "com.seriflabs.affinityphoto2",
+        "com.seriflabs.affinitydesigner2",
+        "com.seriflabs.affinitypublisher2"
+      ],
+      "injectFile": "liblibzlib.dylib",
+      "supportVersion": ["2.1.0", "2.1.1"]
+    },
+    {
+      "packageName": "com.panic.transmit.mas",
+      "injectFile": "ZipZap.framework/Versions/A/ZipZap",
+      "supportVersion": ["5.9.2"]
+    },
+    {
+      "packageName": "com.wiheads.paste",
+      "bridgeFile": "/Contents/MacOS/",
+      "extraShell": "paste.sh",
+      "injectFile": "Paste",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "supportVersion": ["4.0.1", "4.0.2", "4.0.3", "4.0.4", "4.0.5"]
+    },
+    {
+      "packageName": "cn.better365.ishot",
+      "injectFile": "PTHotKey.framework/Versions/A/PTHotKey",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "extraShell": "ishot.sh"
+    }
+  ]
+}
