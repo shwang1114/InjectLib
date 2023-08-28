@@ -19,6 +19,7 @@
 
 <!-- TOC -->
 - [关注我](#关注我)
+- [免责声明](#免责声明)
 - [概览](#概览)
     - [让你们看看原神的力量 去吧 芭芭拉！](#让你们看看原神的力量-去吧-芭芭拉)
 - [使用](#使用)
@@ -97,7 +98,7 @@
 | CleanMyMac X                                   | 通杀                                                                                                  |   ✅   |   ✅   | ✅   | com.macpaw.CleanMyMac4.Menu 单独也要注入 Helper每个版本不一样还是需要单独处理 暂时不弄了 不要下大陆特供版 更新地址: https://s3-us-west-2.amazonaws.com/updateinfo.devmate.com/com.macpaw.CleanMyMac4/beta/updates.xml | 
 | Microsoft Office Word/PowerPoint/Excel/Outlook | 通杀                                                                                                  |   ✅   |   ✅   | ✅   | 365订阅版 需要从Mac AppStore 下载                                                                                                                                                       |
 | Stash                                          | [2.3.0](https://mac-release-static.stash.ws/Stash-build-221.zip)                                    |   ❌   |   ✅   | ❌   | 无法设置全局代理 不知道哪里有问题 总体体验较差 不如surge                                                                                                                                                |
-| Paste                                          | 4.0.5                                                                                               |   ✅   |   ✅   | ✅   |                                                                                                                                                                                 | 
+| Paste                                          | 4.0.7                                                                                               |   ❌   |   ✅   | ✅   |                                                                                                                                                                                 | 
 | App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ✅   |   ✅   | ✅   | 因为签名会导致提示盗版，有空在再弄。                                                                                                                                                                       | 
 | Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                               |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载                                                                                                                                                              |
 | ProxyMan                                       | [4.9.1](https://download.proxyman.io/49001/Proxyman_4.9.1.dmg)                                      |   ✅   |   ✅   | ✅   | 更新地址: https://proxyman.io/osx/version.xml                                                                                                                                       |

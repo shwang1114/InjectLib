@@ -141,8 +141,12 @@
     {
       "packageName": "com.adobe.LightroomClassicCC7",
       "appBaseLocate": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app",
-      "injectFile": "AgUI.framework/Versions/A/AgUI",
-      "supportVersion": ["12.3", "12.4"]
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "Adobe Lightroom Classic",
+      "needCopyToAppDir": true,
+      "noDeep": true,
+      "entitlements": "signkeep.xml",
+      "supportVersion": ["12.3", "12.4", "12.5"]
     },
     {
       "packageName": [
@@ -152,10 +156,9 @@
       ],
       "needCopyToAppDir": true,
       "injectFile": "FluentUI.framework/Versions/A/FluentUI"
-    },{
-      "packageName": [
-        "com.microsoft.Outlook"
-      ],
+    },
+    {
+      "packageName": ["com.microsoft.Outlook"],
       "needCopyToAppDir": true,
       "deepSignApp": true,
       "entitlements": "signkeep.xml",
@@ -215,7 +218,7 @@
       "injectFile": "Paste",
       "needCopyToAppDir": true,
       "deepSignApp": true,
-      "supportVersion": ["4.0.1", "4.0.2", "4.0.3", "4.0.4", "4.0.5"]
+      "supportVersion": ["4.0.1", "4.0.2", "4.0.3", "4.0.4", "4.0.5", "4.0.7"]
     },
     {
       "packageName": "cn.better365.ishot",
