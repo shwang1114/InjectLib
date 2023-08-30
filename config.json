@@ -111,6 +111,14 @@
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM"
     },
     {
+      "packageName": "com.adobe.lightroomCC",
+      "appBaseLocate": "/Applications/Adobe Lightroom CC/Adobe Lightroom.app",
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "Adobe Lightroom",
+      "needCopyToAppDir": true,
+      "noDeep": true
+    },
+    {
       "packageName": "com.adobe.Photoshop",
       "appBaseLocate": "/Applications/Adobe Photoshop 2023/Adobe Photoshop 2023.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM"
@@ -217,8 +225,7 @@
       "extraShell": "paste.sh",
       "injectFile": "Paste",
       "needCopyToAppDir": true,
-      "deepSignApp": true,
-      "supportVersion": ["4.0.1", "4.0.2", "4.0.3", "4.0.4", "4.0.5", "4.0.7"]
+      "deepSignApp": true
     },
     {
       "packageName": "cn.better365.ishot",
