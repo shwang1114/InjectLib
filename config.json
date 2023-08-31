@@ -114,8 +114,8 @@
     {
       "packageName": "com.adobe.lightroomCC",
       "appBaseLocate": "/Applications/Adobe Lightroom CC/Adobe Lightroom.app",
-      "bridgeFile": "/Contents/MacOS/",
-      "injectFile": "Adobe Lightroom",
+      "injectFile": "AgUI.framework/Versions/A/AgUI",
+      "entitlements": "signkeep.xml",
       "needCopyToAppDir": true,
       "noDeep": true
     },
@@ -150,12 +150,10 @@
     {
       "packageName": "com.adobe.LightroomClassicCC7",
       "appBaseLocate": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app",
-      "bridgeFile": "/Contents/MacOS/",
-      "injectFile": "Adobe Lightroom Classic",
+      "injectFile": "AgUI.framework/Versions/A/AgUI",
       "needCopyToAppDir": true,
       "noDeep": true,
-      "entitlements": "signkeep.xml",
-      "supportVersion": ["12.3", "12.4", "12.5"]
+      "entitlements": "signkeep.xml"
     },
     {
       "packageName": [
