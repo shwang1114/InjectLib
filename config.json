@@ -234,6 +234,15 @@
       "needCopyToAppDir": true,
       "deepSignApp": true,
       "extraShell": "ishot.sh"
+    },
+    {
+      "packageName": "com.drbuho.BuhoCleaner",
+      "injectFile": "Sparkle.framework/Versions/A/Sparkle",
+      "bridgeFile": "/Contents/Frameworks/DesktopApplication.framework/Versions/A/Frameworks/",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "entitlements": "signkeep.xml",
+      "extraShell": "buhoCleaner.sh"
     }
   ]
 }

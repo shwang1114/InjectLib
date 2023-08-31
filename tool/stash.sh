@@ -1,4 +1,4 @@
-echo "是否全新安装Surge?"
+echo "是否全新安装Stash?"
 echo "这将删除你的默认配置信息.请先备份配置信息到其他位置."
 read -p "(y/n,默认n):" option 
 if [ $option = 'y' ];then             #判断用户是否输入，如果未输入则打印error
