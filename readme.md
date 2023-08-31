@@ -28,10 +28,10 @@
 - [环境](#环境)
 - [兼容](#兼容)
 - [激活注意](#激活注意)
-    - [Sublime Text Dev](#sublime-text-dev)
-    - [Stash](#stash)
-    - [ELPass](#elpass)
-    - [Surge](#surge)
+  - [Sublime Text Dev](#sublime-text-dev)
+  - [Stash](#stash)
+  - [ELPass](#elpass)
+  - [Surge](#surge)
 - [提示](#提示)
 - [警告](#警告)
 - [目的](#目的)
@@ -102,8 +102,8 @@
 | Stash                                          | [2.3.0](https://mac-release-static.stash.ws/Stash-build-221.zip)                          |   ❌   |   ✅   | ❌   | 无法设置全局代理 不知道哪里有问题 总体体验较差 不如surge                                                                                                                                                |
 | Paste                                          | 通杀                                                                                        |   ✅   |   ✅   | ✅   |                                                                                                                                                                                 | 
 | App Cleaner & Uninstaller                      | 8.2.2                                                                                     |   ✅   |   ✅   | ✅   | 因为签名会导致提示盗版，有空在再弄。                                                                                                                                                              | 
-| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                     |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载                                                                                                                                                              |
-| ProxyMan                                       | [4.9.1](https://download.proxyman.io/49001/Proxyman_4.9.1.dmg)                            |   ✅   |   ✅   | ✅   | 更新地址: https://proxyman.io/osx/version.xml                                                                                                                                       |
+| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                     |   ✅   |   ✅   | ✅   | 需要从Mac AppStore 下载                                                                                                                                                              |
+| ProxyMan                                       | [通杀](https://download.proxyman.io/49100/Proxyman_4.10.0.dmg)                            |   ✅   |   ✅   | ✅   | 更新地址: https://proxyman.io/osx/version.xml                                                                                                                                       |
 | BuhoCleaner                                    | [1.9.7](https://www.drbuho.com/buho-public-files/buhocleaner/buhocleaner197150.dmg)       |   ✅   |   ✅   | ✅   | 更新地址:https://www.drbuho.com/buho-public-files/buhocleaner/appcast.xml                                                                                                           |
 
 | Adobe 全家桶               | 版本           | ARM64 | Intel | 特殊说明                         |

@@ -201,8 +201,7 @@
       "injectFile": "Moya.framework/Versions/A/Moya",
       "needCopyToAppDir": true,
       "deepSignApp": true,
-      "extraShell": "proxyman.sh",
-      "supportVersion": ["4.8.0", "4.8.1", "4.8.2", "4.9.0", "4.9.1"]
+      "extraShell": "proxyman.sh"
     },
     {
       "packageName": [
@@ -211,6 +210,8 @@
         "com.seriflabs.affinitypublisher2"
       ],
       "injectFile": "liblibzlib.dylib",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
       "supportVersion": ["2.1.0", "2.1.1"]
     },
     {
