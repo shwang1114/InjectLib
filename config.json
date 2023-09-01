@@ -40,19 +40,16 @@
       "packageName": "ws.stash.app.mac",
       "appBaseLocate": "/Applications/Stash.app",
       "injectFile": "Sparkle.framework/Versions/B/Sparkle",
-      "needCopyToAppDir": true
-    },
-    {
-      "packageName": "ws.stash.app.mac_SIP开启 暂时无效",
-      "appBaseLocate": "/Applications/Stash.app",
-      "injectFile": "Sparkle.framework/Versions/B/Sparkle",
       "needCopyToAppDir": true,
       "deepSignApp": true,
       "extraShell": "stash.sh"
     },
     {
       "packageName": "com.firecore.infuse",
-      "injectFile": "GZIP.framework/Versions/A/GZIP"
+      "injectFile": "GZIP.framework/Versions/A/GZIP",
+      "needCopyToAppDir": true,
+      "noDeep": true,
+      "entitlements": "signkeep.xml"
     },
     {
       "packageName": "com.coderforart.MWeb3",
