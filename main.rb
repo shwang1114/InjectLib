@@ -49,9 +49,6 @@ def checkCompatible(compatibleVersionCode, compatibleVersionSubCode, appVersionC
 end
 
 def main
-
-  puts "Environment Prepare Setting..."
-
   ret = %x{csrutil status}.chomp
   # System Integrity Protection status: disabled.
   if ret.include?("status: enabled")
@@ -59,18 +56,20 @@ def main
     # return
   end
 
-  puts "====\t自动注入脚本开始执行 ====\n"
-  puts "====\tAutomatic Inject Script Checking... ====\n"
-  puts "== Design By QiuChenly#github.com/qiuchenly"
-  puts "注入时请根据提示输入'y' 或者按下回车键跳过这一项。\n"
-  puts "When i find useful options, pls follow my prompts enter 'y' or press enter key to jump that item.\n"
-
-  install_apps = scan_apps
-
   config = File.read("config.json")
   config = JSON.parse config
   basePublicConfig = config['basePublicConfig']
   appList = config['AppList']
+  procVersion = config['Version']
+
+  puts "====\t自动注入开始执行\t====\n"
+  puts "====\tVersion(版本号): #{procVersion}\t====\n"
+  puts "====\tAutomatic Inject Script Checking... ====\n"
+  puts "====\tDesign By QiuChenly(github.com/qiuchenly)"
+  puts "注入时请根据提示输入'y' 或者按下回车键跳过这一项。\n"
+  puts "When i find useful options, pls follow my prompts enter 'y' or press enter key to jump that item.\n"
+
+  install_apps = scan_apps
 
   #prepare resolve package lst
   appLst = []
