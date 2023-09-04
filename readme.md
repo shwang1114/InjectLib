@@ -109,7 +109,7 @@
 | ProxyMan                                       | [通杀](https://download.proxyman.io/49100/Proxyman_4.10.0.dmg)                            |   ✅   |   ✅   | ✅   | 更新地址: https://proxyman.io/osx/version.xml                                                                                                                                       |
 | BuhoCleaner                                    | [1.9.7](https://www.drbuho.com/buho-public-files/buhocleaner/buhocleaner197150.dmg)       |   ✅   |   ✅   | ✅   | 更新地址:https://www.drbuho.com/buho-public-files/buhocleaner/appcast.xml                                                                                                           |
 | macsfancontrol                                    | [通杀](https://crystalidea.com/downloads/macsfancontrol.zip)       |   ✅   |   ✅   | ✅   | |
-| TablePlus                                    | [通杀](https://tableplus.com/release/osx/tableplus_latest)       |   ✅   |   ✅   | ✅   | |
+| TablePlus                                    | [5.4.0](https://tableplus.com/release/osx/tableplus_latest)       |   ❌   |   ✅   | ✅   | 老子第一次喷App: 傻逼App 做的跟shit一样 打开崩溃就多打开几次 崩溃是因为我伪造的信息被这APP他妈的内存溢出Bug乱几把读内存导致的 伪造的内存数据结构被篡改成不知道哪来的ObjectC对象引起的崩溃 浪费老子时间 真的垃圾App 作者能不能几把优化一下？？ 就这破App 老子弄到凌晨三点 真的狗都不用 |
 
 | Adobe 全家桶               | 版本           | ARM64 | Intel | 特殊说明                         |
 |:------------------------|:-------------|:-----:|:-----:|:-----------------------------|
