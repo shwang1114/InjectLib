@@ -108,8 +108,8 @@
 | Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                     |   ✅   |   ✅   | ✅   | 需要从Mac AppStore 下载                                                                                                                                                              |
 | ProxyMan                                       | [通杀](https://download.proxyman.io/49100/Proxyman_4.10.0.dmg)                            |   ✅   |   ✅   | ✅   | 更新地址: https://proxyman.io/osx/version.xml                                                                                                                                       |
 | BuhoCleaner                                    | [1.9.7](https://www.drbuho.com/buho-public-files/buhocleaner/buhocleaner197150.dmg)       |   ✅   |   ✅   | ✅   | 更新地址:https://www.drbuho.com/buho-public-files/buhocleaner/appcast.xml                                                                                                           |
-| macsfancontrol                                    | [通杀](https://crystalidea.com/downloads/macsfancontrol.zip)       |   ❌   |   ✅   | ✅   | |
-| TablePlus                                    | [通杀](https://tableplus.com/release/osx/tableplus_latest)       |   ❌   |   ✅   | ✅   | |
+| macsfancontrol                                    | [通杀](https://crystalidea.com/downloads/macsfancontrol.zip)       |   ✅   |   ✅   | ✅   | |
+| TablePlus                                    | [通杀](https://tableplus.com/release/osx/tableplus_latest)       |   ✅   |   ✅   | ✅   | |
 
 | Adobe 全家桶               | 版本           | ARM64 | Intel | 特殊说明                         |
 |:------------------------|:-------------|:-----:|:-----:|:-----------------------------|

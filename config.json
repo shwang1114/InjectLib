@@ -39,7 +39,9 @@
       "packageName": "com.tinyapp.TablePlus",
       "injectFile": "SSH.framework/Versions/A/SSH",
       "needCopyToAppDir": true,
-      "noDeep": true
+      "noDeep": true,
+      "deepSignApp": true,
+      "extraShell": "tablePlus.sh"
     },
     {
       "packageName": "app.elpass.macos",
