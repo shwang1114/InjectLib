@@ -108,8 +108,8 @@
 | Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                     |   ✅   |   ✅   | ✅   | 需要从Mac AppStore 下载                                                                                                                                                              |
 | ProxyMan                                       | [通杀](https://download.proxyman.io/49100/Proxyman_4.10.0.dmg)                            |   ✅   |   ✅   | ✅   | 更新地址: https://proxyman.io/osx/version.xml                                                                                                                                       |
 | BuhoCleaner                                    | [1.9.7](https://www.drbuho.com/buho-public-files/buhocleaner/buhocleaner197150.dmg)       |   ✅   |   ✅   | ✅   | 更新地址:https://www.drbuho.com/buho-public-files/buhocleaner/appcast.xml                                                                                                           |
-| macsfancontrol                                    | [通杀](https://crystalidea.com/downloads/macsfancontrol.zip)       |   ✅   |   ✅   | ✅   | |
-| TablePlus                                    | [5.4.0](https://tableplus.com/release/osx/tableplus_latest)       |   ❌   |   ✅   | ✅   | 老子第一次喷App: 傻逼App 做的跟shit一样 打开崩溃就多打开几次 崩溃是因为我伪造的信息被这APP他妈的内存溢出Bug乱几把读内存导致的 伪造的内存数据结构被篡改成不知道哪来的ObjectC对象引起的崩溃 浪费老子时间 真的垃圾App 作者能不能几把优化一下？？ 就这破App 老子弄到凌晨三点 真的狗都不用 |
+| macsfancontrol                                    | [通杀预定](https://crystalidea.com/downloads/macsfancontrol.zip)       |   ✅   |   ✅   | ✅   | |
+| TablePlus                                    | [5.4.0-通杀预定](https://tableplus.com/release/osx/tableplus_latest)       |   ✅   |   ✅   | ✅   | 老子第一次喷App: 傻逼App 做的跟shit一样 我伪造的授权信息在内存数据结构被篡改成不知道哪来的ObjectC对象引起崩溃 浪费老子时间 真的垃圾App 作者能不能几把优化一下？？ 就这破App 老子弄到凌晨三点 真的狗都不用 而且连个汉化都没有 格局Down Down了 |
 
 | Adobe 全家桶               | 版本           | ARM64 | Intel | 特殊说明                         |
 |:------------------------|:-------------|:-----:|:-----:|:-----------------------------|
@@ -117,7 +117,7 @@
 | Adobe PhotoShop Beta    | 通杀           |   ❌   |   ✅   | 支持创意填充/神经滤镜 需要随便登录个账户        |
 | Adobe Acrobat           | 23.003.20244 |   ✅   |   ✅   |                              |
 | Adobe Illustrator       | 27.8.1       |   ✅   |   ❔   | ARM64 测试通过 X86没有测试过 大家自行测试   |
-| Adobe Lightroom Classic | 12.4         |   ❌   |   ❌   | 功能不可用 等后续更新                  |
+| Adobe Lightroom Classic | 12.5         |   ❌   |   ❌   | 修改照片功能不可用 等后续更新                  |
 | Adobe Premiere Pro      | 23.5         |   ❔   |   ❔   | M1/x86版本灰度测试 测试报告有效/无效 我没有安装 |
 
 # 激活注意
