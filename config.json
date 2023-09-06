@@ -63,6 +63,7 @@
       "injectFile": "GZIP.framework/Versions/A/GZIP",
       "needCopyToAppDir": true,
       "noDeep": true,
+      "deepSignApp": true,
       "entitlements": "signkeep.xml"
     },
     {
