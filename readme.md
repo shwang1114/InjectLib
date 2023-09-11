@@ -110,6 +110,7 @@
 | BuhoCleaner                                    | [通杀](https://www.drbuho.com/buho-public-files/buhocleaner/buhocleaner197150.dmg)       |   ✅   |   ✅   | ✅   | 更新地址:https://www.drbuho.com/buho-public-files/buhocleaner/appcast.xml                                                                                                           |
 | Macs Fan Control                                    | [通杀](https://crystalidea.com/downloads/macsfancontrol.zip)       |   ✅   |   ✅   | ✅   | |
 | TablePlus                                    | [5.4.0-通杀预定](https://tableplus.com/release/osx/tableplus_latest)       |   ✅   |   ✅   | ✅   | 老子第一次喷App: 傻逼App 做的跟shit一样 我伪造的授权信息在内存数据结构被篡改成不知道哪来的ObjectC对象引起崩溃 浪费老子时间 真的垃圾App 作者能不能几把优化一下？？ 就这破App 老子弄到凌晨三点 真的狗都不用 而且连个汉化都没有 格局Down Down了 |
+|Transmit 5|5.9.2|✅|✅|✅| 需要从App Store下载
 
 | Adobe 全家桶               | 版本           | ARM64 | Intel | 特殊说明 全家桶全部支持打开SIP下使用                         |
 |:------------------------|:-------------|:-----:|:-----:|:-----------------------------|

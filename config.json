@@ -212,6 +212,8 @@
     },
     {
       "packageName": "com.panic.transmit.mas",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
       "injectFile": "ZipZap.framework/Versions/A/ZipZap",
       "supportVersion": ["5.9.2"]
     },
