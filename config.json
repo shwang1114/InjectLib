@@ -218,6 +218,12 @@
       "supportVersion": ["5.9.2"]
     },
     {
+      "packageName": "tonyapp.devutils",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "injectFile": "DiffMatchPatch.framework/Versions/A/DiffMatchPatch"
+    },
+    {
       "packageName": "com.wiheads.paste",
       "bridgeFile": "/Contents/MacOS/",
       "extraShell": "paste.sh",
