@@ -224,6 +224,12 @@
       "injectFile": "DiffMatchPatch.framework/Versions/A/DiffMatchPatch"
     },
     {
+      "packageName": "app.mp3tag.Mp3tag",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "injectFile": "Sparkle.framework/Versions/B/Sparkle"
+    },
+    {
       "packageName": "com.wiheads.paste",
       "bridgeFile": "/Contents/MacOS/",
       "extraShell": "paste.sh",

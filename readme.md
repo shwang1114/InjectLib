@@ -112,6 +112,7 @@
 | TablePlus                                    | [5.4.0-通杀预定](https://tableplus.com/release/osx/tableplus_latest)       |   ✅   |   ✅   | ✅   | 老子第一次喷App: 傻逼App 做的跟shit一样 我伪造的授权信息在内存数据结构被篡改成不知道哪来的ObjectC对象引起崩溃 浪费老子时间 真的垃圾App 作者能不能几把优化一下？？ 就这破App 老子弄到凌晨三点 真的狗都不用 而且连个汉化都没有 格局Down Down了 |
 |Transmit 5|5.9.2|✅|✅|✅| 需要从App Store下载
 |DevUtils|[1.17.0](https://devutils.com/archives/DevUtils-1.17.0.dmg)|❔|✅|✅| 功能可用 但是激活状态我懒得改了 作者写的这个App代码质量之烂令人无语 不想多说什么了
+|MP3Tag|[1.8.6 (86)](https://updates.mp3tag.app/Mp3tag-1.8.6.zip)|❔|✅|✅| 序列号随便输入 全部激活
 
 | Adobe 全家桶               | 版本           | ARM64 | Intel | 特殊说明 全家桶全部支持打开SIP下使用                         |
 |:------------------------|:-------------|:-----:|:-----:|:-----------------------------|
