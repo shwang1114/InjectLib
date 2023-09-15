@@ -193,6 +193,8 @@ def main
     if deepSignApp
        system "#{signPrefix} #{Shellwords.escape(appBaseLocate)}"
     end
+
+    puts "App处理完成。"
   }
 end
 
