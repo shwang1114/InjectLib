@@ -230,6 +230,12 @@
       "injectFile": "Sparkle.framework/Versions/B/Sparkle"
     },
     {
+      "packageName": "com.villow.wgt",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "injectFile": "BFPageControl.framework/Versions/A/BFPageControl"
+    },
+    {
       "packageName": "com.wiheads.paste",
       "bridgeFile": "/Contents/MacOS/",
       "extraShell": "paste.sh",
