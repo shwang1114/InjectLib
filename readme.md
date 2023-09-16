@@ -203,6 +203,7 @@ Surge开启MitM和脚本功能，然后: <br>
 | Rectangle Pro | 3.0.8  |                                                |
 | Swish         | 1.10.2 |                                                |
 | TG Pro        | 2.8.2  |                                                |
+| Timemator     | 3.0.3  |                                                |
 
 # 提示
 
