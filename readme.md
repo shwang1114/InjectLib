@@ -49,7 +49,9 @@
 
 # 使用
 
-1. 下载解压，双击运行"原神_启动.command"并输入密码，按照提示操作。
+1. 下载整个仓库并解压，双击运行"原神_启动.command"并输入密码，按照提示操作。
+   <br>
+   小白不知道点哪里下载整个仓库？[点我下载](https://github.com/QiuChenlyOpenSource/InjectLib/archive/refs/heads/main.zip)
 2. 要是你不差这几分钟时间，从头到尾先认真读一遍这个readme，可能你看完之后会解决你的部分疑惑。
 
 # 问题
