@@ -194,11 +194,16 @@ Surge开启MitM和脚本功能，然后: <br>
 
 已测试支持以下App:
 
-| App         | 版本    | 特殊说明 |
-|:------------|:------|:-----|
-| AlDente Pro | 1.22  |      |
-| AirBuddy    | 2.6.3 |      |
-| TG pro      | 2.8.2 |      |
+| App           | 版本     | 特殊说明                                           |
+|:--------------|:-------|:-----------------------------------------------|
+| AlDente Pro   | 1.22   |                                                |
+| AirBuddy      | 2.7.1  |                                                |
+| Downie 4      | 4.6.27 | `B7EE3D3C-B7EE3D3C-B7EE3D3C-B7EE3D3C-B7EE3D3C` |
+| One Switch    | 1.31   |                                                |
+| Rectangle Pro | 3.0.8  |                                                |
+| Swish         | 1.10.2 |                                                |
+| TG Pro        | 2.8.2  |                                                |
+| Timemator     | 3.0.3  |                                                |
 
 # 提示
 
