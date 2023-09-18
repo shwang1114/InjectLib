@@ -25,6 +25,10 @@ echo "正在定位你的Mac物理地址...GPS定位中...你跑不掉了! 即将
 echo a5a3: 6A 01 58 C3 |sudo xxd -r - "$helper" #intel
 echo 4172c: 20 00 80 D2 C0 03 5F D6 |sudo xxd -r - "$helper" #arm64
 
+# 版本2387
+echo e3c5: 6A 01 58 C3 |sudo xxd -r - "$helper" #intel
+echo 455c8: 20 00 80 D2 C0 03 5F D6 |sudo xxd -r - "$helper" #arm64
+
 echo "定位你的Mac物理地址完成，正在向国家安全局特工发送你的逮捕许可..."
 offsets=$(grep -a -b -o "\x3C\x73\x74\x72\x69\x6E\x67\x3E\x61\x6E\x63\x68\x6F\x72" $helper | cut -d: -f1)
 sed 's/\x0A/\n/g' <<< "$offsets" | while read -r s; do
