@@ -160,7 +160,7 @@
         "com.microsoft.Word"
       ],
       "needCopyToAppDir": true,
-      "injectFile": "FluentUI.framework/Versions/A/FluentUI"
+      "injectFile": "ADAL4.framework/Versions/A/ADAL4"
     },
     {
       "packageName": ["com.microsoft.Outlook"],
