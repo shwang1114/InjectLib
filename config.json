@@ -209,15 +209,13 @@
       ],
       "injectFile": "liblibzlib.dylib",
       "needCopyToAppDir": true,
-      "deepSignApp": true,
-      "supportVersion": ["2.1.0", "2.1.1"]
+      "deepSignApp": true
     },
     {
       "packageName": "com.panic.transmit.mas",
       "needCopyToAppDir": true,
       "deepSignApp": true,
-      "injectFile": "ZipZap.framework/Versions/A/ZipZap",
-      "supportVersion": ["5.9.2"]
+      "injectFile": "ZipZap.framework/Versions/A/ZipZap"
     },
     {
       "packageName": "tonyapp.devutils",
