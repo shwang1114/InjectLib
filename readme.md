@@ -20,6 +20,7 @@
   - [Stash](#stash)
   - [ELPass](#elpass)
   - [Surge](#surge)
+  - [拦截激活部分App](#拦截激活部分app)
 - [提示](#提示)
 - [警告](#警告)
 - [目的](#目的)
@@ -111,7 +112,7 @@
 | ProxyMan                                       | [通杀](https://download.proxyman.io/49100/Proxyman_4.10.0.dmg)                            |   ✅   |   ✅   | ✅   | 更新地址: https://proxyman.io/osx/version.xml                                                                                                                                       |
 | BuhoCleaner                                    | [通杀](https://www.drbuho.com/buho-public-files/buhocleaner/buhocleaner197150.dmg)       |   ✅   |   ✅   | ✅   | 更新地址:https://www.drbuho.com/buho-public-files/buhocleaner/appcast.xml                                                                                                           |
 | Macs Fan Control                                    | [通杀](https://crystalidea.com/downloads/macsfancontrol.zip)       |   ✅   |   ✅   | ✅   | |
-| TablePlus                                    | [5.4.0-通杀预定](https://tableplus.com/release/osx/tableplus_latest)       |   ✅   |   ✅   | ✅   | 老子第一次喷App: 傻逼App 做的跟shit一样 我伪造的授权信息在内存数据结构被篡改成不知道哪来的ObjectC对象引起崩溃 浪费老子时间 真的垃圾App 作者能不能几把优化一下？？ 就这破App 老子弄到凌晨三点 真的狗都不用 而且连个汉化都没有 格局Down Down了 |
+| TablePlus                                    | [通杀](https://tableplus.com/release/osx/tableplus_latest)       |   ✅   |   ✅   | ✅   | 老子第一次喷App: 傻逼App 做的跟shit一样 我伪造的授权信息在内存数据结构被篡改成不知道哪来的ObjectC对象引起崩溃 浪费老子时间 真的垃圾App 作者能不能几把优化一下？？ 就这破App 老子弄到凌晨三点 真的狗都不用 而且连个汉化都没有 格局Down Down了 |
 |Transmit 5|5.9.2|✅|✅|✅| 需要从App Store下载
 |DevUtils|[1.17.0](https://devutils.com/archives/DevUtils-1.17.0.dmg)|✅|✅|✅| 功能可用 但是激活状态我懒得改了 作者写的这个App代码质量之烂令人无语 不想多说什么了
 |MP3Tag|[1.8.6 (86)](https://updates.mp3tag.app/Mp3tag-1.8.6.zip)|❌|✅|✅| 序列号随便输入 全部激活
@@ -175,6 +176,10 @@ Surge 更新地址: https://www.nssurge.com/mac/v5/appcast-signed-beta.xml <br>
 之前安装过旧版本的用户进Surge后先卸载一遍Helper帮助程序才能正常安装帮助程序挂上代理。点击安装帮助程序没反应的不是破解的问题，能不能先去点一下卸载帮助程序呢？<br>
 如果你因为某些软件缺陷第一反应质疑是破解的问题，那么我只能说“SB 你是对的 都是破解的问题 你说的太对了 完全不是你的问题
 完全不是原始软件的问题”因为跟蠢货争论只会浪费我的生命。<br>
+
+## 拦截激活部分App
+
+Surge可以利用拦截修改http返回值的方式破解下面的app而无需修改原始App。下面是脚本破解步骤，如果你不需要用下面的App，看到这里就可以关闭网页了。
 
 Surge开启MitM和脚本功能，然后: <br>
 
