@@ -81,8 +81,7 @@
       "packageName": "com.nektony.App-Cleaner-SIII",
       "needCopyToAppDir": true,
       "deepSignApp": true,
-      "injectFile": "NektonyFallManager.framework/Versions/A/NektonyFallManager",
-      "supportVersion": ["8.2.1", "8.2.2"]
+      "injectFile": "NektonyFallManager.framework/Versions/A/NektonyFallManager"
     },
     {
       "packageName": "com.macpaw.CleanMyMac4",
@@ -199,7 +198,9 @@
     },
     {
       "packageName": "com.mac.utility.media.player",
-      "injectFile": "XADMaster.framework/Versions/A/XADMaster"
+      "injectFile": "XADMaster.framework/Versions/A/XADMaster",
+      "needCopyToAppDir": true,
+      "deepSignApp": true
     },
     {
       "packageName": "com.proxyman.NSProxy",
