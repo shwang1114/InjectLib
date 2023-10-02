@@ -132,24 +132,22 @@
       "packageName": "com.adobe.illustrator",
       "appBaseLocate": "/Applications/Adobe Illustrator 2023/Adobe Illustrator.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": ["27.5.0", "27.6.1", "27.8.1"]
+      "needCopyToAppDir": true,
+      "noDeep": true
     },
     {
       "packageName": "com.adobe.PremierePro.23",
       "appBaseLocate": "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": ["23.5"]
+      "needCopyToAppDir": true,
+      "noDeep": true
     },
     {
       "packageName": "com.adobe.Acrobat.Pro",
       "appBaseLocate": "/Applications/Adobe Acrobat DC/Adobe Acrobat.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": [
-        "23.001.20177",
-        "23.003.20201",
-        "23.003.20215",
-        "23.003.20244"
-      ]
+      "needCopyToAppDir": true,
+      "noDeep": true
     },
     {
       "packageName": "com.adobe.LightroomClassicCC7",
@@ -201,6 +199,14 @@
       "injectFile": "XADMaster.framework/Versions/A/XADMaster",
       "needCopyToAppDir": true,
       "deepSignApp": true
+    },
+    {
+      "packageName": "com.bandisoft.mac.bandizip",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "Bandizip",
+      "supportVersion": ["7.25"]
     },
     {
       "packageName": "com.proxyman.NSProxy",
