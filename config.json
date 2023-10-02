@@ -30,6 +30,14 @@
       "extraShell": "surge.sh"
     },
     {
+      "packageName": "com.surteesstudios.Bartender",
+      "needCopyToAppDir": true,
+      "noDeep": true,
+      "deepSignApp": true,
+      "injectFile": "Sparkle.framework/Versions/A/Sparkle",
+      "extraShell": "bartender.sh"
+    },
+    {
       "packageName": "com.crystalidea.macsfancontrol",
       "injectFile": "QtMacExtras.framework/Versions/5/QtMacExtras",
       "needCopyToAppDir": true,
