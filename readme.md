@@ -87,6 +87,22 @@
 
    此时就能正常打开。如果还出现问题，请检查自己的注入操作有没有问题。
 
+4. Operation not permitted<br>
+   如下所示。<br>
+   ![simple](image-7.png)<br>
+   ```
+   开始注入App: com.nssurge.surge-mac
+   /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/fileutils.rb:1387:in `initialize': Operation not permitted @ rb_sysopen - /Applications/Surge.app/Contents/Frameworks/Bugsnag.framework/Versions/A/Bugsnag_backup (Errno::EPERM)
+   ```
+   这是很多人会遇到的问题。<br>Operation not permitted就是终端app需要修改app，但是没权限 所以会崩溃。<br>
+   原因：终端没有给操作权限<br>
+   解决办法：<br>
+   1. 打开设置<br>
+   2. 隐私和安全性<br>
+   3. 开发者工具<br>
+   4. 打开终端开关，重启终端即可正常执行。<br>
+   ![terminal](image-6.png)
+
 # 环境
 
 代码运行最低操作系统要求&此代码编译环境
