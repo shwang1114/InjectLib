@@ -124,9 +124,11 @@
     {
       "packageName": "com.adobe.lightroomCC",
       "appBaseLocate": "/Applications/Adobe Lightroom CC/Adobe Lightroom.app",
-      "injectFile": "AgUI.framework/Versions/A/AgUI",
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "Adobe Lightroom",
       "entitlements": "signkeep.xml",
       "needCopyToAppDir": true,
+      "deepSignApp": true,
       "noDeep": true
     },
     {
@@ -138,21 +140,21 @@
     },
     {
       "packageName": "com.adobe.illustrator",
-      "appBaseLocate": "/Applications/Adobe Illustrator 2023/Adobe Illustrator.app",
+      "appBaseLocate": "/Applications/Adobe Illustrator 2024/Adobe Illustrator.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
     },
     {
-      "packageName": "com.adobe.ame.application.23",
-      "appBaseLocate": "/Applications/Adobe Media Encoder 2023/Adobe Media Encoder 2023.app",
+      "packageName": "com.adobe.ame.application.24",
+      "appBaseLocate": "/Applications/Adobe Media Encoder 2024/Adobe Media Encoder 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
     },
     {
       "packageName": "com.adobe.AfterEffects",
-      "appBaseLocate": "/Applications/Adobe After Effects 2023/Adobe After Effects 2023.app",
+      "appBaseLocate": "/Applications/Adobe After Effects 2024/Adobe After Effects 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
@@ -173,7 +175,7 @@
     },
     {
       "packageName": "com.adobe.PremierePro.23",
-      "appBaseLocate": "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app",
+      "appBaseLocate": "/Applications/Adobe Premiere Pro 2024/Adobe Premiere Pro 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
@@ -221,9 +223,7 @@
     {
       "packageName": ["com.microsoft.Outlook"],
       "needCopyToAppDir": true,
-      "deepSignApp": true,
-      "entitlements": "signkeep.xml",
-      "injectFile": "FluentUI.framework/Versions/A/FluentUI"
+      "injectFile": "mso30.framework/Versions/A/mso30"
     },
     {
       "packageName": "com.sublimetext.4",
