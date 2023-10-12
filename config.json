@@ -215,8 +215,6 @@
         "com.microsoft.Powerpoint",
         "com.microsoft.Word"
       ],
-      "deepSignApp": true,
-      "entitlements": "signkeep.xml",
       "needCopyToAppDir": true,
       "injectFile": "ADAL4.framework/Versions/A/ADAL4"
     },
