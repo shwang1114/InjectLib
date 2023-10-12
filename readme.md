@@ -200,6 +200,8 @@ ElPass: https://elpass.app/macos/appcast-beta.xml
 
 ## Surge
 
+Surge 5.4.0 2400版本 ARM64会
+
 laoliu，good morning. not good also fine, follow u.
 
 Surge盗版用户请支持正版。<br>
