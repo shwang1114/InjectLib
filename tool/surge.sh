@@ -4,7 +4,7 @@ sudo /usr/bin/killall -u root -9 com.nssurge.surge-mac.helper
 sudo /bin/rm /Library/LaunchDaemons/com.nssurge.surge-mac.helper.plist
 sudo /bin/rm /Library/PrivilegedHelperTools/com.nssurge.surge-mac.helper
 # sudo rm -rf ~/Library/Preferences/com.nssurge.surge-mac.plist
-sudo rm -rf ~/Library/Application\ Support/com.nssurge.surge-mac
+# sudo rm -rf ~/Library/Application\ Support/com.nssurge.surge-mac
 
 echo "感谢QQ 302****398 用户无偿提供授权信息。"
 echo "大胆！检测到你在用盗版软件，这可能会危害你的设备！还可能会导致你被有关监管部门或工业和信息化委员会上门约谈，请慎重考虑是否决定使用盗版！"
