@@ -21,7 +21,8 @@ ___
 
 3. **下载adobe packager**
 
-   ![1](/Users/admin/Desktop/1.png)
+
+<img width="1680" alt="1" src="https://github.com/LoveJessyChen/InjectLib/assets/48858531/bdbb5467-e345-4ac2-a4e4-23f0cc08a2ae">
 
    3.1 从以下地址clone后下载这个adobe packager
 
@@ -31,23 +32,27 @@ ___
 
    3.2 解压后直接双击运行ccdl.command
 
-   ![2](/Users/admin/Desktop/2.png)
+
+<img width="930" alt="2" src="https://github.com/LoveJessyChen/InjectLib/assets/48858531/6e5d0790-9452-427e-839e-625e74f654b7">
 
 4. 下载并安装Lightroom CC软件
 
    4.1 根据屏幕提示输入 v6 然后回车，输入y然后回车。然后稍作等待 ，然后弹出adobe套件代码的列表之后。
 
-   ![3](/Users/admin/Desktop/3.png)
+<img width="593" alt="3" src="https://github.com/LoveJessyChen/InjectLib/assets/48858531/ddb76d74-4026-40db-b549-b172ebb2402a">
+
 
    4.2 输入现在要下载的Lightroom CC 套件，查询列表可以知道代码是LRCC
 
     然后我们输入LRCC，并回车，选择版本输入6.5并回车；选择语言默认是中文 直接回车。
 
-   ![4](/Users/admin/Desktop/4.png)
+<img width="590" alt="4" src="https://github.com/LoveJessyChen/InjectLib/assets/48858531/21238761-f2ec-412d-b385-550053584013">
+
 
    然后弹出窗口选择下载到哪个文件夹，我们下载到桌面。点击选取。
 
-   ![5](/Users/admin/Desktop/5.png)
+<img width="814" alt="5" src="https://github.com/LoveJessyChen/InjectLib/assets/48858531/d868252a-1970-4d02-9980-6440a1ada030">
+
 
    然后双击这个install开头的安装包就可以安装了。
 
