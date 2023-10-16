@@ -1,0 +1,15 @@
+使用方法
+1. 点击star
+![star项目](https://tc.souk.eu.org/d/33.png)
+2. 下载整个仓库
+   <br>
+   小白不知道点哪里下载整个仓库？[点我下载](https://github.com/QiuChenlyOpenSource/InjectLib/archive/refs/heads/main.zip)
+3. 下载后一般会自动解压，如没有自动解压请手动解压
+![Alt Text](https://tc.souk.eu.org/d/34.png)
+4. 确保Surge软件已安装至/Application 文件夹内 然后关闭 Surge 程序
+5. 双击 原神_启动.command 执行文件，然后输入电脑的登录密码授予脚本权限
+![Alt Text](https://tc.souk.eu.org/d/37.png)
+6. 输入 “y” 执行注入操作
+![Alt Text](https://tc.souk.eu.org/d/35.png)
+7. 等待注入完成后打开 Surge 即可
+![Alt Text](https://tc.souk.eu.org/d/36.png)
