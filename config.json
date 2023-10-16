@@ -160,15 +160,15 @@
       "noDeep": true
     },
     {
-      "packageName": "com.adobe.Adobe-Animate-2023.application",
-      "appBaseLocate": "/Applications/Adobe Animate 2023/Adobe Animate 2023.app",
+      "packageName": "com.adobe.Adobe-Animate-2024.application",
+      "appBaseLocate": "/Applications/Adobe Animate 2024/Adobe Animate 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
     },
     {
       "packageName": "com.adobe.Audition",
-      "appBaseLocate": "/Applications/Adobe Audition 2023/Adobe Audition 2023.app",
+      "appBaseLocate": "/Applications/Adobe Audition 2024/Adobe Audition 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
@@ -189,7 +189,7 @@
     },
     {
       "packageName": "com.adobe.InCopy",
-      "appBaseLocate": "/Applications/Adobe InCopy 2023/Adobe InCopy 2023.app",
+      "appBaseLocate": "/Applications/Adobe InCopy 2024/Adobe InCopy 2024.app",
       "bridgeFile": "/Contents/MacOS/",
       "injectFile": "PublicLib.dylib",
       "needCopyToAppDir": true,
@@ -197,7 +197,7 @@
     },
     {
       "packageName": "com.adobe.InDesign",
-      "appBaseLocate": "/Applications/Adobe InDesign 2023/Adobe InDesign 2023.app",
+      "appBaseLocate": "/Applications/Adobe InDesign 2024/Adobe InDesign 2024.app",
       "bridgeFile": "/Contents/MacOS/",
       "injectFile": "PublicLib.dylib",
       "needCopyToAppDir": true,

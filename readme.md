@@ -157,16 +157,16 @@
 | Adobe PhotoShop         | 通杀           |   ❌   |   ✅   | PS:神经滤镜已经完美可用                |
 | Adobe PhotoShop Beta    | 通杀           |   ❌   |   ✅   | 支持创意填充/神经滤镜 需要随便登录个账户        |
 | Adobe Acrobat Pro           | 23.006.20320 |   ✅   |   ✅   |                              |
-| Adobe Illustrator       | 27.9.0       |   ✅   |   ✅   | ARM64 测试通过 X86没有测试过 大家自行测试   |
-| Adobe Lightroom      | 6.5         |   ❌    |   ✅   | 部分人有效 比如我 似乎是账户权限问题 |
-| Adobe Lightroom Classic | 12.6         |   ❌   |   ✅   | 部分人有效 比如我 似乎是账户权限问题                 |
-| Adobe InCopy 2023      | 18.5.0.57         |   ✅    |   ✅   | 我下载不到ARM64版本的包 |
-| Adobe InDesign 2023      | 18.5.0.57         |   ✅    |   ✅   | 我下载不到ARM64版本的包 |
-| Adobe Premiere Pro      | 23.6         |   ❌    |   ✅   | 我下载不到ARM64版本的包 |
-| Adobe After Effects 2023      | 23.6         |   ❌    |   ✅   | 我下载不到ARM64版本的包 |
-| Adobe Animate 2023      | 23.0.2.103         |   ❌    |   ✅   | 我下载不到ARM64版本的包 |
-| Adobe Audition 2023      | 23.6.1.3         |   ❌    |   ✅   | 我下载不到ARM64版本的包 |
-| Adobe Media Encoder 2023      | 23.6         |   ❌    |   ✅   | 我下载不到ARM64版本的包 |
+| Adobe Illustrator       | 28.0.0       |   ✅   |   ✅   | ARM64 测试通过 X86没有测试过 大家自行测试   |
+| Adobe Lightroom      | 7.0         |   ❌    |   ✅   | 注入后先点试用 然后过期后可以正常使用 |
+| Adobe Lightroom Classic | 13.0.1         |   ❌   |   ✅   | 注入后先点试用 然后过期后可以正常使用                 |
+| Adobe InCopy 2024      | 19.0.0.151         |   ✅    |   ❌   | 在M1 Mac Mini 中测试通过 |
+| Adobe InDesign 2024      | 19.0.0.151         |   ✅    |   ❌   | 在M1 Mac Mini 中测试通过 |
+| Adobe Premiere Pro 2024     | 24.0.0         |   ✅    |   ✅   | 在M1 Mac Mini 中测试通过 |
+| Adobe After Effects 2024      | 24.0.0         |   ✅    |   ✅   | 在M1 Mac Mini 中测试通过 |
+| Adobe Animate 2024      | 24.0         |   ✅   |   ✅   | 在M1 Mac Mini 中测试通过 |
+| Adobe Audition 2024      | 24.0.0.46         |   ✅    |   ✅   | 在M1 Mac Mini 中测试通过 |
+| Adobe Media Encoder 2024      | 24.0         |   ✅    |   ✅   | 在M1 Mac Mini 中测试通过 |
 
 # 激活注意
 
