@@ -59,6 +59,8 @@
    小白不知道点哪里下载整个仓库？[点我下载](https://github.com/QiuChenlyOpenSource/InjectLib/archive/refs/heads/main.zip)
 2. 要是你不差这几分钟时间，从头到尾先认真读一遍这个readme，可能你看完之后会解决你的部分疑惑。
 
+纯小白另可参见:[小白参考](./小白请看.md)
+
 # 问题
 
 这里列举一下可能会遇到的问题。
@@ -166,6 +168,8 @@
 | Adobe Animate 2024      | 24.0         |   ✅   |   ✅   | 在M1 Mac Mini 中测试通过 |
 | Adobe Audition 2024      | 24.0.0.46         |   ✅    |   ✅   | 在M1 Mac Mini 中测试通过 |
 | Adobe Media Encoder 2024      | 24.0         |   ✅    |   ✅   | 在M1 Mac Mini 中测试通过 |
+
+另请参见: [Adobe激活产品说明](./Adobe说明.md)
 
 # 激活注意
 
