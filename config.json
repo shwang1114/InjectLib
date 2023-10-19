@@ -1,7 +1,7 @@
 {
   "project": "InjectShell",
   "Author": "QiuChenly",
-  "Version": 1.1,
+  "Version": 1.2,
   "Description": {
     "desc": "这是一个用于解释说明json对象用途的说明文档。basePublicConfig里面的同名配置如果在AppList里面配置了相同的Key，则优先使用AppList里面的值。",
     "bridgeFile": "app路径和注入文件路径之间的中间路径，有些app只能注入到/Contents，所以加了这个。",
@@ -28,6 +28,14 @@
       "injectFile": "Bugsnag.framework/Versions/A/Bugsnag",
       "needCopyToAppDir": true,
       "extraShell": "surge.sh"
+    },
+    {
+      "packageName": "com.parallels.desktop.console",
+      "bridgeFile": "/Contents/MacOS/Parallels Service.app/Contents/MacOS/",
+      "injectFile": "prl_disp_service",
+      "extraShell": "pd.sh",
+      "noDeep": true,
+      "supportSubVersion": ["53606", "53488", "53614", "53621", "54570"]
     },
     {
       "packageName": "com.surteesstudios.Bartender",

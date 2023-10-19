@@ -18,6 +18,7 @@
 - [兼容](#兼容)
 - [激活注意](#激活注意)
   - [Sublime Text Dev](#sublime-text-dev)
+  - [PD 19](#pd-19)
   - [Stash](#stash)
   - [ELPass](#elpass)
   - [Surge](#surge)
@@ -41,7 +42,7 @@
 
 # 免责声明
 
-致来自中国大陆的各位学习研究爱好者:
+致来自中国大陆的各位学习研究爱好者:<br>
    根据大陆中华人民共和国《计算机软件保护条例》第十七条规定：“为了学习和研究软件内含的设计思想和原理，通过安装、显示、传输或者存储软件等方式使用软件的，可以不经软件著作权人许可，不向其支付报酬。”您需知晓本仓库所有内容资源均来源于网络，仅供用户交流学习与研究使用，版权归属原版权方所有，版权争议与本仓库本作者无关，用户本人下载后不能用作商业或非法用途，需在24小时之内删除，否则后果均由用户承担责任。如果你不删,请发邮件到qiuchenly@outlook.com, 我做个登记, 然后让这些喜欢发律师函的事务所一对一指导你。
 
 我是来自北美的独立IOS应用开发者, 是二次元南桐. 从早稻田毕业的那一天, 我的青春也永远留在了京都.
@@ -153,6 +154,7 @@
 |MP3Tag|[1.8.6 (86)](https://updates.mp3tag.app/Mp3tag-1.8.6.zip)|❌|✅|✅| 序列号随便输入 全部激活
 |Widgetter|[通杀](https://apps.apple.com/cn/app/widgetter-%E5%B0%8F%E5%B7%A5%E5%85%B7-%E6%A1%8C%E9%9D%A2%E5%A3%81%E7%BA%B8-%E4%B8%BB%E9%A2%98-%E5%B1%8F%E4%BF%9D/id1553223588?mt=12)|✅|✅|✅| MAS下载 激活全部功能
 |Bartender 5|[5.0.36-通杀](https://macbartender.com/B2/updates/5-0-31/Bartender%205.zip)|✅|✅|✅| 更新地址 https://www.macbartender.com/B2/updates/AppcastB5.xml
+|Parallels Desktop|[19.0.0-通杀](https://download.parallels.com/desktop/v19/19.0.0-54570/ParallelsDesktop-19.0.0-54570.dmg) |   ✅   |   ✅   | ✅   |  谁会想到会有人以亲妈暴毙的代价冒名顶替发恐吓律师函呢？
 
 | Adobe 全家桶               | 版本           | ARM64 | Intel | 特殊说明 全家桶全部支持打开SIP下使用                         |
 |:------------------------|:-------------|:-----:|:-----:|:-----------------------------|
@@ -190,6 +192,18 @@ EA7E-8888
 88888888888888888888888888888888
 ------ END LICENSE ------
 ```
+
+## PD 19
+
+PD 19 说明与注意事项:<br>
+
+1. 注入后先不要打开PD, 去运行"Parallels_原始人_起洞.command", PD将会自动启动。
+2. 每次打开PD都要重复步骤1才能完美使用。步骤1执行一次之后只要PD你没有退出, 就可以直接使用PD不需要再去执行步骤1。
+3. 总结: 原始人,起洞！
+
+灵感和解决思路来自于:<br>
+仓库: https://github.com/trueToastedCode/ParallelsLab/tree/%3E18.1.1-53328-lab<br>
+非常感谢trueToastedCode提出的想法和美妙设计！
 
 ## Stash
 
