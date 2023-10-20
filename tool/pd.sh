@@ -10,12 +10,12 @@ COLOR_ERR='\033[0;35m'
 NOCOLOR='\033[0m'
 
 PDFM_DIR="/Applications/Parallels Desktop.app"
-PDFM_VER="18.3.2-53621"
+PDFM_VER="19.1.0-54729"
 
 LICENSE_FILE="${BASE_PATH}/licenses.json"
 LICENSE_DST="/Library/Preferences/Parallels/licenses.json"
 
-echo "${COLOR_INFO}[*] 确保你的版本是: https://download.parallels.com/desktop/v18/${PDFM_VER}/ParallelsDesktop-${PDFM_VER}.dmg"
+echo "${COLOR_INFO}[*] 确保你的版本是: https://download.parallels.com/desktop/v19/${PDFM_VER}/ParallelsDesktop-${PDFM_VER}.dmg"
 
 echo "${COLOR_INFO}[*] 复制伪造的授权文件 licenses.json${NOCOLOR}"
 
