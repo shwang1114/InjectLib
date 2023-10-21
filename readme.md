@@ -17,6 +17,7 @@
 - [环境](#环境)
 - [兼容](#兼容)
 - [激活注意](#激活注意)
+  - [Emby Server 破解](#emby-server-破解)
   - [Sublime Text Dev](#sublime-text-dev)
   - [PD 19](#pd-19)
   - [Stash](#stash)
@@ -174,6 +175,9 @@
 另请参见: [Adobe激活产品说明](./Adobe说明.md)
 
 # 激活注意
+
+## Emby Server 破解
+参见 [EmbyServer 破解说明](./EmbyServer)
 
 ## Sublime Text Dev
 
