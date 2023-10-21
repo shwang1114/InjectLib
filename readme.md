@@ -60,7 +60,7 @@
    小白不知道点哪里下载整个仓库？[点我下载](https://github.com/QiuChenlyOpenSource/InjectLib/archive/refs/heads/main.zip)
 2. 要是你不差这几分钟时间，从头到尾先认真读一遍这个readme，可能你看完之后会解决你的部分疑惑。
 
-纯小白另可参见:[小白参考](./小白请看.md)
+纯小白另可参见:[小白参考](https://github.com/wolffya/InjectLib/tree/secondary)
 
 # 问题
 
