@@ -49,7 +49,7 @@ if [[ -n "$1" ]]; then
 "# 127.0.0.1 my.parallels.com"
     )
     if [[ "$1" == "add" ]]; then
-        if [[ "$(awk 'END {print}' "${file}")" != "" ]]; then
+        if [[ "$(sudo -S awk 'END {print}' "${file}")" != "" ]]; then
             sudo -S tee -a "${file}" >/dev/null <<-EOF
 
 EOF
