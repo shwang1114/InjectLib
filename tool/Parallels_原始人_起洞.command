@@ -38,15 +38,15 @@ if [[ -n "$1" ]]; then
         "127.0.0.1 myparallels.com"
         "127.0.0.1 my.parallels.com"
         "# 127.0.0.1 download.parallels.com"
-"# 127.0.0.1 update.parallels.com"
-"# 127.0.0.1 desktop.parallels.com"
-"# 127.0.0.1 download.parallels.com.cdn.cloudflare.net"
-"# 127.0.0.1 update.parallels.com.cdn.cloudflare.net"
-"# 127.0.0.1 desktop.parallels.com.cdn.cloudflare.net"
-"# 127.0.0.1 www.parallels.com"
-"# 127.0.0.1 reportus.parallels.com"
-"# 127.0.0.1 parallels.com"
-"# 127.0.0.1 my.parallels.com"
+        "# 127.0.0.1 update.parallels.com"
+        "# 127.0.0.1 desktop.parallels.com"
+        "# 127.0.0.1 download.parallels.com.cdn.cloudflare.net"
+        "# 127.0.0.1 update.parallels.com.cdn.cloudflare.net"
+        "# 127.0.0.1 desktop.parallels.com.cdn.cloudflare.net"
+        "# 127.0.0.1 www.parallels.com"
+        "# 127.0.0.1 reportus.parallels.com"
+        "# 127.0.0.1 parallels.com"
+        "# 127.0.0.1 my.parallels.com"
     )
     if [[ "$1" == "add" ]]; then
         if [[ "$(sudo -S awk 'END {print}' "${file}")" != "" ]]; then
@@ -85,21 +85,11 @@ PDFM_DISP_BCUP="${PDFM_DISP_DST}_backup"
 
 if [ "$(pgrep -x prl_disp_service)" != "" ] && [ "$(pgrep -x prl_client_app)" != "" ]; then
     open "${PDFM_DIR}"
-#    exit 0
+    exit 0
 fi
 
-# TODO && [[ ! -d "/Applications/启动_PD.app" ]] 有必要加上去吗?
-if [[ -d "./Parallels_一键配置.app" ]]; then
-    read -r -p "⚙️ 是否需要配置一键启动PD.(默认为:y [y/n]): " flag || exit 1
-    if [[ $flag != n ]]; then
-        sed -i '' -e "s/INPPUT=\"密码\"/INPPUT=\"${passwd}\"/g;" "./Parallels_一键配置.app/Contents/document.wflow" || exit 1
-        sudo -S rm -rf "/Applications/启动_PD.app" >/dev/null 2>&1
-        sudo -S cp -rf "./Parallels_一键配置.app" "/Applications/启动_PD.app" || exit 1
-        sed -i '' -e "s/INPPUT=\"${passwd}\"/INPPUT=\"密码\"/g;" "./Parallels_一键配置.app/Contents/document.wflow" || exit 1
-        sudo -S xattr -rd com.apple.quarantine "/Applications/启动_PD.app" || exit 1
-        open "/Applications/启动_PD.app" || exit 1
-        exit 0
-    fi
+if [ ! -e "${PDFM_DISP_PATCH}" ]; then
+    sudo -S cp -f "${PDFM_DISP_DST}" "${PDFM_DISP_PATCH}"
 fi
 
 sudo -S cp -f "${PDFM_DISP_PATCH}" "${PDFM_DISP_DST}"
