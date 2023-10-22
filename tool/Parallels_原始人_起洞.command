@@ -5,7 +5,6 @@ read -p "输入管理员密码: " -r passwd
 printf "\r\033[1A%s" "" 1>&2
 printf "\r\033[K%s" "" 1>&2
 echo "${passwd}" | sudo -S echo "当前是 $(sudo whoami) 用户"
-sudo whoami
 
 PDFM_DIR="/Applications/Parallels Desktop.app"
 PDFM_DISP_DST="${PDFM_DIR}/Contents/MacOS/Parallels Service.app/Contents/MacOS/prl_disp_service"
