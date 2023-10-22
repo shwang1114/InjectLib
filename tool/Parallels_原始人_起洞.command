@@ -96,6 +96,7 @@ if [[ -d "./Parallels_一键配置.app" ]]; then
         sudo -S rm -rf "/Applications/启动_PD.app" >/dev/null 2>&1
         sudo -S cp -rf "./Parallels_一键配置.app" "/Applications/启动_PD.app" || exit 1
         sed -i '' -e "s/INPPUT=\"${passwd}\"/INPPUT=\"密码\"/g;" "./Parallels_一键配置.app/Contents/document.wflow" || exit 1
+        sudo -S xattr -rd com.apple.quarantine "/Applications/启动_PD.app" || exit 1
         open "/Applications/启动_PD.app" || exit 1
         exit 0
     fi
