@@ -12,10 +12,22 @@ NOCOLOR='\033[0m'
 PDFM_DIR="/Applications/Parallels Desktop.app"
 PDFM_VER="19.1.0-54729"
 
+PDFM_DISP_DIR="${PDFM_DIR}/Contents/MacOS/Parallels Service.app/Contents/MacOS"
+PDFM_DISP_DST="${PDFM_DISP_DIR}/prl_disp_service"
+
 LICENSE_FILE="${BASE_PATH}/licenses.json"
 LICENSE_DST="/Library/Preferences/Parallels/licenses.json"
 
 echo "${COLOR_INFO}[*] 确保你的版本是: https://download.parallels.com/desktop/v19/${PDFM_VER}/ParallelsDesktop-${PDFM_VER}.dmg"
+
+# check parallels desktop version
+VERSION_1=$(defaults read "${PDFM_DIR}/Contents/Info.plist" CFBundleShortVersionString)
+VERSION_2=$(defaults read "${PDFM_DIR}/Contents/Info.plist" CFBundleVersion)
+INSTALL_VER="${VERSION_1}-${VERSION_2}"
+if [ "${PDFM_VER}" != "${VERSION_1}-${VERSION_2}" ]; then
+  echo -e "${COLOR_ERR}[-] This script is for ${PDFM_VER}, but your's is ${INSTALL_VER}.${NOCOLOR}"
+  exit 2
+fi
 
 echo "${COLOR_INFO}[*] 复制伪造的授权文件 licenses.json${NOCOLOR}"
 
@@ -69,6 +81,8 @@ chflags schg "${LICENSE_DST}" || {
   exit $?
 }
 
-# cp -f "/Applications/Parallels Desktop.app/Contents/MacOS/Parallels Service.app/Contents/MacOS/prl_disp_service" "/Applications/Parallels Desktop.app/Contents/MacOS/Parallels Service.app/Contents/MacOS/prl_disp_service_patched"
+chmod 755 "${PDFM_DISP_DST}"
+
+cp -f "/Applications/Parallels Desktop.app/Contents/MacOS/Parallels Service.app/Contents/MacOS/prl_disp_service" "/Applications/Parallels Desktop.app/Contents/MacOS/Parallels Service.app/Contents/MacOS/prl_disp_service_patched"
 
 echo "${COLOR_INFO}[*] 破解完成。${NOCOLOR}"
