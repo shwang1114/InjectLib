@@ -27,7 +27,7 @@
       "bridgeFile": "/Contents/Frameworks/",
       "injectFile": "Bugsnag.framework/Versions/A/Bugsnag",
       "needCopyToAppDir": true,
-      "extraShell": "surge.sh"
+      "extraShell": "surgeAgent.sh"
     },
     {
       "packageName": "com.parallels.desktop.console",
