@@ -339,6 +339,14 @@
       "deepSignApp": true,
       "entitlements": "signkeep.xml",
       "extraShell": "buhoCleaner.sh"
+    },
+    {
+      "packageName": "org.qcad",
+      "injectFile": "libqcadcustomwidgets.dylib",
+      "bridgeFile": "/Contents/PlugIns/designer/",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "noDeep": true
     }
   ]
 }
