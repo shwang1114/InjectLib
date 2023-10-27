@@ -238,7 +238,9 @@
     {
       "packageName": ["com.microsoft.Outlook"],
       "needCopyToAppDir": true,
-      "injectFile": "mso30.framework/Versions/A/mso30"
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "Microsoft Outlook",
+      "noSignTarget": true
     },
     {
       "packageName": "com.sublimetext.4",
