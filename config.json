@@ -261,7 +261,8 @@
     {
       "packageName": "com.mac.utility.screen.recorder",
       "bridgeFile": "/Contents/MacOS/",
-      "injectFile": "OmniRecorder"
+      "injectFile": "OmniRecorder",
+      "extraShell": "recorder.sh"
     },
     {
       "packageName": "com.mac.utility.media.player",
