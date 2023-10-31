@@ -111,7 +111,7 @@
       "injectFile": "Announcements.framework/Versions/A/Announcements",
       "needCopyToAppDir": true,
       "deepSignApp": true,
-      "extraShell": "cmm.sh"
+      "extraShell": "cmmxAgent.sh"
     },
     {
       "packageName": "com.macpaw.CleanMyMac4.Menu",
