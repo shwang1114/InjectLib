@@ -173,6 +173,13 @@
 | Adobe Audition 2024      | 24.0.0.46         |   ✅    |   ✅   | 在M1 Mac Mini 中测试通过 |
 | Adobe Media Encoder 2024      | 24.0         |   ✅    |   ✅   | 在M1 Mac Mini 中测试通过 |
 
+激活Adobe后出现This non-genius app解决方案:
+![ATTENTION](image-10.png)
+不用代理工具的人想办法屏蔽下面的域名,用Surge的人解决方案简单如下:
+
+屏蔽所有*.adobe.io的域名, Surge手动增加规则DOMAIN-SUFFIX,值为adobe.io,但是要注意放行lcs-cops.adobe.io为DIRECT,否则App打开就会崩溃。
+![Adobe屏蔽](image-9.png)
+
 另请参见: [Adobe激活产品说明](./Adobe说明.md)
 
 # 激活注意
