@@ -157,6 +157,8 @@
 |Bartender 5|[5.0.36-通杀](https://macbartender.com/B2/updates/5-0-31/Bartender%205.zip)|✅|✅|✅| 更新地址 https://www.macbartender.com/B2/updates/AppcastB5.xml
 |Parallels Desktop|[19.1.0](https://download.parallels.com/desktop/v19/19.1.0-54729/ParallelsDesktop-19.1.0-54729.dmg) |   ✅   |   ✅   | ✅   |  谁会想到会有人以全家除他以外(含亲妈)全部暴毙的代价冒名顶替别人给我发恐吓律师函呢？
 |QCAD-Intel|[3.28.2](https://www.qcad.org/archives/qcad/qcad-3.28.2-trial-macos-10.14-13.dmg)|❌|✅|✅| ARM懒得弄
+|Bandizip 365|7.28|✅|✅|✅|订阅版|
+|Bandizip|7.28|✅|✅|✅|买断版|
 
 | Adobe 全家桶               | 版本           | ARM64 | Intel | 特殊说明 全家桶全部支持打开SIP下使用                         |
 |:------------------------|:-------------|:-----:|:-----:|:-----------------------------|
