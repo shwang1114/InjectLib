@@ -276,7 +276,7 @@
       "deepSignApp": true,
       "bridgeFile": "/Contents/MacOS/",
       "injectFile": "Bandizip",
-      "supportVersion": ["7.27"]
+      "supportVersion": ["7.27", "7.28"]
     },
     {
       "packageName": "com.proxyman.NSProxy",
