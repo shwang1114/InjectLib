@@ -291,7 +291,7 @@
       "injectFile": "Moya.framework/Versions/A/Moya",
       "needCopyToAppDir": true,
       "deepSignApp": true,
-      "extraShell": "proxyman.sh"
+      "extraShell": "proxyManAgent.sh"
     },
     {
       "packageName": [
