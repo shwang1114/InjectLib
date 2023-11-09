@@ -55,7 +55,6 @@ def main():
                 print("替换了", cache, mKey, mValue)
                 fileContent = fileContent.replace(mKey, mValue)
                 files_cache[cache] = fileContent
-                break
 
     for fileOut in files_cache:
         with open(fileOut, "w", encoding="utf-8") as u:

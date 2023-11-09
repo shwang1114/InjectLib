@@ -21,6 +21,7 @@ title:"Hosts"|title:"Hosts主机"
 
 "Enable Shared Groups"|"启用分享组"
 "Enable Access to Shared Groups"|"启用分享组访问"
+"Log out"|"退出登录"
 
 
 title:"Warning",text:"After logout user data will be removed from the device"|title:"警告",text:"注销后，用户数据将从设备中删除!"
