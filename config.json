@@ -1,7 +1,7 @@
 {
   "project": "InjectShell",
   "Author": "QiuChenly",
-  "Version": 1.1,
+  "Version": 1.2,
   "Description": {
     "desc": "这是一个用于解释说明json对象用途的说明文档。basePublicConfig里面的同名配置如果在AppList里面配置了相同的Key，则优先使用AppList里面的值。",
     "bridgeFile": "app路径和注入文件路径之间的中间路径，有些app只能注入到/Contents，所以加了这个。",
@@ -27,7 +27,22 @@
       "bridgeFile": "/Contents/Frameworks/",
       "injectFile": "Bugsnag.framework/Versions/A/Bugsnag",
       "needCopyToAppDir": true,
-      "extraShell": "surge.sh"
+      "extraShell": "surgeAgent.sh"
+    },
+    {
+      "packageName": "com.parallels.desktop.console",
+      "bridgeFile": "/Contents/MacOS/Parallels Service.app/Contents/MacOS/",
+      "injectFile": "prl_disp_service",
+      "extraShell": "pd.sh",
+      "noDeep": true,
+      "supportSubVersion": [
+        "53606",
+        "53488",
+        "53614",
+        "53621",
+        "54570",
+        "54729"
+      ]
     },
     {
       "packageName": "com.surteesstudios.Bartender",
@@ -96,7 +111,7 @@
       "injectFile": "Announcements.framework/Versions/A/Announcements",
       "needCopyToAppDir": true,
       "deepSignApp": true,
-      "extraShell": "cmm.sh"
+      "extraShell": "cmmxAgent.sh"
     },
     {
       "packageName": "com.macpaw.CleanMyMac4.Menu",
@@ -124,9 +139,11 @@
     {
       "packageName": "com.adobe.lightroomCC",
       "appBaseLocate": "/Applications/Adobe Lightroom CC/Adobe Lightroom.app",
-      "injectFile": "AgUI.framework/Versions/A/AgUI",
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "Adobe Lightroom",
       "entitlements": "signkeep.xml",
       "needCopyToAppDir": true,
+      "deepSignApp": true,
       "noDeep": true
     },
     {
@@ -138,42 +155,42 @@
     },
     {
       "packageName": "com.adobe.illustrator",
-      "appBaseLocate": "/Applications/Adobe Illustrator 2023/Adobe Illustrator.app",
+      "appBaseLocate": "/Applications/Adobe Illustrator 2024/Adobe Illustrator.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
     },
     {
-      "packageName": "com.adobe.ame.application.23",
-      "appBaseLocate": "/Applications/Adobe Media Encoder 2023/Adobe Media Encoder 2023.app",
+      "packageName": "com.adobe.ame.application.24",
+      "appBaseLocate": "/Applications/Adobe Media Encoder 2024/Adobe Media Encoder 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
     },
     {
       "packageName": "com.adobe.AfterEffects",
-      "appBaseLocate": "/Applications/Adobe After Effects 2023/Adobe After Effects 2023.app",
+      "appBaseLocate": "/Applications/Adobe After Effects 2024/Adobe After Effects 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
     },
     {
-      "packageName": "com.adobe.Adobe-Animate-2023.application",
-      "appBaseLocate": "/Applications/Adobe Animate 2023/Adobe Animate 2023.app",
+      "packageName": "com.adobe.Adobe-Animate-2024.application",
+      "appBaseLocate": "/Applications/Adobe Animate 2024/Adobe Animate 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
     },
     {
       "packageName": "com.adobe.Audition",
-      "appBaseLocate": "/Applications/Adobe Audition 2023/Adobe Audition 2023.app",
+      "appBaseLocate": "/Applications/Adobe Audition 2024/Adobe Audition 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
     },
     {
       "packageName": "com.adobe.PremierePro.23",
-      "appBaseLocate": "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app",
+      "appBaseLocate": "/Applications/Adobe Premiere Pro 2024/Adobe Premiere Pro 2024.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "needCopyToAppDir": true,
       "noDeep": true
@@ -187,7 +204,7 @@
     },
     {
       "packageName": "com.adobe.InCopy",
-      "appBaseLocate": "/Applications/Adobe InCopy 2023/Adobe InCopy 2023.app",
+      "appBaseLocate": "/Applications/Adobe InCopy 2024/Adobe InCopy 2024.app",
       "bridgeFile": "/Contents/MacOS/",
       "injectFile": "PublicLib.dylib",
       "needCopyToAppDir": true,
@@ -195,7 +212,7 @@
     },
     {
       "packageName": "com.adobe.InDesign",
-      "appBaseLocate": "/Applications/Adobe InDesign 2023/Adobe InDesign 2023.app",
+      "appBaseLocate": "/Applications/Adobe InDesign 2024/Adobe InDesign 2024.app",
       "bridgeFile": "/Contents/MacOS/",
       "injectFile": "PublicLib.dylib",
       "needCopyToAppDir": true,
@@ -221,9 +238,9 @@
     {
       "packageName": ["com.microsoft.Outlook"],
       "needCopyToAppDir": true,
-      "deepSignApp": true,
-      "entitlements": "signkeep.xml",
-      "injectFile": "FluentUI.framework/Versions/A/FluentUI"
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "Microsoft Outlook",
+      "noSignTarget": true
     },
     {
       "packageName": "com.sublimetext.4",
@@ -244,7 +261,8 @@
     {
       "packageName": "com.mac.utility.screen.recorder",
       "bridgeFile": "/Contents/MacOS/",
-      "injectFile": "OmniRecorder"
+      "injectFile": "OmniRecorder",
+      "extraShell": "recorder.sh"
     },
     {
       "packageName": "com.mac.utility.media.player",
@@ -258,14 +276,22 @@
       "deepSignApp": true,
       "bridgeFile": "/Contents/MacOS/",
       "injectFile": "Bandizip",
-      "supportVersion": ["7.25"]
+      "supportVersion": ["7.27", "7.28"]
+    },
+    {
+      "packageName": "com.bandisoft.mac.bandizip365",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "Bandizip365",
+      "supportVersion": ["7.27", "7.28"]
     },
     {
       "packageName": "com.proxyman.NSProxy",
       "injectFile": "Moya.framework/Versions/A/Moya",
       "needCopyToAppDir": true,
       "deepSignApp": true,
-      "extraShell": "proxyman.sh"
+      "extraShell": "proxyManAgent.sh"
     },
     {
       "packageName": [
@@ -324,6 +350,14 @@
       "deepSignApp": true,
       "entitlements": "signkeep.xml",
       "extraShell": "buhoCleaner.sh"
+    },
+    {
+      "packageName": "org.qcad",
+      "injectFile": "libqcadcustomwidgets.dylib",
+      "bridgeFile": "/Contents/PlugIns/designer/",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "noDeep": true
     }
   ]
 }
